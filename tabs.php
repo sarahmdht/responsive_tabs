@@ -26,8 +26,8 @@ function rtabs_load_text_domain(){
 add_action('wp_enqueue_scripts', 'responsive_tabs_script');
 function responsive_tabs_script()
 {
-    wp_enqueue_style('responsive_tabs_style', plugin_dir_url(__FILE__) . 'assets/tabs.css', false, '1.1', 'all');
-    wp_enqueue_script('responsive_tabs_script', plugin_dir_url(__FILE__) . 'assets/tabs.js');
+    wp_enqueue_style('responsive_tabs_style', plugin_dir_url(__FILE__) . 'assets/css/tabs.css', false, '1.1', 'all');
+    wp_enqueue_script('responsive_tabs_script', plugin_dir_url(__FILE__) . 'assets/js/tabs.js');
 }
 
 // adding ACF fields and display it in woocommerce tabs

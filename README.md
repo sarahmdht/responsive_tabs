@@ -2,13 +2,13 @@
 wordpress woocommerce plugin that shows product custom tabs horizontally on wide screens, and vertically with side panel that slides from the right side with ease in small screens
 
 # wide screen horizontal tabs
-![tabs in full screen](assets/image_wide.png)
+![tabs in full screen](assets/img/image_wide.png)
 
 # small screen vertical tab
-![tabs in small screen](assets/image_small.png)
+![tabs in small screen](assets/img/image_small.png)
 
 and side panel
-![side panel](assets/image.png)
+![side panel](assets/img/side_panel.png)
 
 # how it works?
 * simply the default woocommerce product description will display inside the first tab called "Description"
